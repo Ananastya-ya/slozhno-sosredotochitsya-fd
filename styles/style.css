@@ -146,12 +146,12 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 49px;
+  gap: 50px;
 }
 
 .section__content {
   display: grid;
-  gap: 19px;
+  gap: 20px;
 }
 
 .title__section {
@@ -200,10 +200,6 @@
 
 h4.title-decor {
   font-weight: normal;
-}
-
-.content__cards > h3.title-decor {
-  margin-block-start: -1.5px;
 }
 
 /* ====================== Галерея ====================== */
@@ -285,10 +281,6 @@ h4.title-decor {
 
   .title__section {
     line-height: 1.31;
-  }
-
-  .content__cards > h3.title-decor {
-    margin-block-start: 0;
   }
 
   .gallery {
