@@ -222,6 +222,7 @@ h4.title-decor {
   block-size: 100%;
   max-inline-size: 100%;
   object-fit: contain;
+  object-position: center;
 }
 
 /* ====================== Футер ====================== */
