@@ -275,7 +275,7 @@ h4.title-decor {
     gap: 79px;
   }
 
-  .main section:nth-of-type(2) .content__cards {
+  .desktop-cards.content__cards {
     grid-row: 2 / auto;
     grid-column: 1 / -1;
   }
@@ -299,7 +299,6 @@ h4.title-decor {
 
   .gallery__image {
     object-fit: cover;
-    object-position: center;
   }
 
   .title-decor:nth-child(1) {
@@ -354,7 +353,6 @@ h4.title-decor {
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
   }
 
@@ -366,7 +364,7 @@ h4.title-decor {
     gap: 10px;
   }
 
-  .main section:nth-of-type(2) .content__cards {
+  .desktop-cards.content__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
